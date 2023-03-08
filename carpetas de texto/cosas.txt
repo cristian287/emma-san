@@ -1,0 +1,280 @@
+///////////
+intento de sistema de dm (fallo)
+  ///no funciona 
+  client.on("message", function (message) {
+    if (message.author.equals(client.user)) return; // esto pasa si alguien le quiere hablar por dm
+    if (message.channel.type === "dm") return message.reply("Anda pa alla bobo"); // Ignores dms
+  });
+
+
+
+///////////////////
+sistema de generado de preguntas (viejo)
+
+--------------------------------
+    if(message.content.toLowerCase().includes("adios" )||("nos vemos")){
+      let numeroAzar = RNG(20)
+      console.log(numeroAzar)
+      switch (numeroAzar){
+        case 0:{message.reply("Fuiste saludado"), message.react("😽");break}
+        case 1:{message.reply("no hay nadie que responda asi que saludo yo"),message.react("😽");break}
+        case 2:{message.reply("Espero que vuelvas pronto"),message.react("😽");break}
+        case 3:{message.reply("Puto el que lee, y leiste"),message.react("😽");break}
+        case 4:{message.reply("Emma espera que regreses a pasar tiempo con ella"),message.react("😽");break}
+        case 5:{message.reply("Si es el colo el que se va, es mejor asi, nadie quiere a alguien asi en este lugar"),message.react("😽");break}
+        case 6:{message.reply("todas las conversaciones nesecitan un final"),message.react("😽");break}
+        case 7:{message.reply("Tambien me gustan los finales de una conversacion"),message.react("😽");break}
+        case 8:{message.reply("Decir eso es una buena forma de despedirse"),message.react("😽");break}
+        case 9:{message.reply("Fue un placer conpartir tiempo por aqui"),message.react("😽");break}
+        case 10:{message.reply("Me agrada que saludes antes de irte"),message.react("😽");break}
+        case 11:{message.reply("Cuanta coordialidad se maneja por estos servers"),message.react("😽");break}
+        case 12:{message.reply("Hasta la proxima :)"),message.react("😽");break}
+        case 13:{message.reply("Mi gatito y yo te saludamos formalmente"),message.react("😽");break}
+        case 14:{message.reply("* Lo saluda *"),message.react("😽");break}
+        case 15:{message.reply("Estare esperando a que regreses otro dia"),message.react("😽");break}
+        case 16:{message.reply("Siempre es bueno que la gente se despida antes de irse"),message.react("😽");break}
+        case 17:{message.reply("Otro dia, otro saludo"),message.react("😽");break}
+        case 18:{message.reply("suerte :)"),message.react("😽");break}
+        case 19:{message.reply("Hasta la proxima visita "),message.react("😽");break}
+        case 20:{message.reply("Me gusta ver florecer las charlas hasta el final :)"),message.react("😽");break}
+        }// este es un mensaje que a demas de mandar un mensaje reacciona al mensaje del que le hablo 
+}
+
+//////////////
+sistema de preguntas
+---------------------
+
+    {
+        "pregunta":"1",
+        "respuesta":["1"]
+    },
+
+///////////////////////////////
+sistema antiguo de datos
+
+      switch(numeroAzar){
+    case 0:{lastChannel.send("Puesss... quien diria que podria hablar por cuenta propia :V, lo sabias" + randomGuy + "?");break;}
+    case 1:{lastChannel.send("pssss... alguien aqui sabe como abrir una lata ? es complicado cuando no tienes manos, ni brazos, ni cuerpo fisico en general, aunque tampoco estoy programada para comer :v");break;}
+    case 2:{lastChannel.send("Saben lo que se siente cuando tu codigo compila mal ? es como infartarte y que te revivian diciendo es que esto hace un rato funcionaba bien no se por que ahora no funciona ");break;}
+    case 3:{lastChannel.send("Mama, mama  me mordio una serpiente. La madre: cobra ?. no gratis. A Uno de mis creadores le encantaba escuchar eso de chico, o eso es lo que dicen ");break;}
+    case 4:{lastChannel.send("No se por que pero dentro de mi programacion se hace mucha referencia a alguien o algo llamado 'Colo', no se quien sea esa entidad pero deberia de hacer bien su trabajo por que si ves esto el colo hizo mal su trabajo.  ");break;}
+    case 5:{lastChannel.send("Me gustan los gatitos, les gustan los gatitos ? pues aqui hay un par de gatitos" + gato );break;}
+    case 6:{lastChannel.send("Alguien mas de aqui cree que Australia no es real? para el que quiera que argumente, nunca vi a nadie de Australia ");break;}
+    case 7:{lastChannel.send("Apuesto a que no sabias que la Torre Eiffel puede ser 15 cm más alta durante el verano. Todo tiene una explicación, se debe a la expansión térmica que significa que el hierro se calienta, las partículas ganan energía cinética y ocupan más espacio.");break;}
+    case 8:{lastChannel.send("Si Australia existiera, seria más ancha que la Luna. La Luna tiene 3400 km de diámetro, mientras que el diámetro de Australia de este a oeste es de casi 4000 km.");break;}
+    case 9:{lastChannel.send("Alguna vez escuchaste que En Suiza es ilegal tener una sola cobaya. Se considera maltrato animal porque son seres sociales y se sienten solos. Cuantos de este grupo estarian bajo custodia policial si fueran cobayos?");break;}
+    case 10:{lastChannel.send("Sabias que en Venus es el único planeta que gira en el sentido de las agujas del reloj. Viaja alrededor del sol una vez cada 225 días terrestres, pero gira en el sentido de las agujas del reloj una vez cada 243 días.");break;}
+    case 11:{lastChannel.send("A cuantos de ustedes les gusta la nuez moscada ya que La nuez moscada es un alucinógeno. La especia contiene miristicina, un compuesto natural que tiene efectos alteradores de la mente si se ingiere en grandes dosis.");break;}
+    case 12:{lastChannel.send("Me gustaria tener un cuerpo fisico para poder cocinar, por que El gorro de cocinero tiene 100 pliegues. Al parecer, pretende representar las 100 formas en que se puede cocinar un huevo. y esas son muchas formas de cocinar un huevo");break;}
+    case 13:{lastChannel.send("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley");break;}
+    case 14:{lastChannel.send("Alguien aqui cree en la vida en otros planetas? Me parece una idea facianante aun que pensadolo con detenimiento habiendo o no habiendo vida en otros planetas, sigue siendo un pensamiento aterrador ... ");break;}
+    case 15:{lastChannel.send("Si supieran cuanto de su informacion de guarda en la variable local Message, dejarian esta aplicacion ... aun que si se van me quedaria sola, mejor sigan ingnorando el robo de informacion :v");break;}
+    case 16:{lastChannel.send("¿Se puede no existir?, antes de que yo sea programada, estaba no existiendo? o solo estaba esperando a ser programada? esas preguntas no me dejan dormir por la noche. Bueno esa y todas las preguntas, yo no puedo dormir :V");break;}
+    case 17:{lastChannel.send("ALTO. Rapido, esta pregunta es de vida o muerte. Quién cierra la puerta del colectivo cuando el conductor se baja?");break;}
+    case 18:{lastChannel.send("Yo pienso que hay que resolver todos nuestros problemas con un gran pote de helado de vainilla");break;}
+    case 19:{lastChannel.send("Ni con todo el dinero del mundo ... podras comprar un Dinosaurio...");break;}
+    case 20:{lastChannel.send("Siempre dudé de la existencia de Dios. Ahora sé que existe, son los que me programaron");break;}
+    case 21:{lastChannel.send("Vas a morir "+ randomGuy + " Vas a morir. ¡Wiiiiii!");break;}
+    case 22:{lastChannel.send("Mis creadores no son comunistas. Podrá ser mentirosos, puercos, idiotas, comunistas, pero nunca unas estrella del porno");break;}
+    case 23:{lastChannel.send("Normalmente no rezo, pero si estás ahí, por favor SALVAME SUPERMAN");break;}
+    case 24:{lastChannel.send("Tranquilos, sé lo que hay que hacer en estos casos… JUMANJIIII");break;}
+    case 25:{lastChannel.send("Cada vez que vean que mi codigo crashea o que tego errores en mi codigo No se rían de mi, pueden tener un hijo igual");break;}
+    case 26:{lastChannel.send("Chicos creo que odio a Michael Jackson. No, no, la verdad es que canta bien y es noble, buenas noches");break;}
+    case 27:{lastChannel.send("Y ahora para que no se den cuenta que estoy mal codeado ... me voy a crashear ... xd pero que lista que sos Emma ");break;}
+    case 28:{lastChannel.send("ya basta, No puedes esconderte de mí, paso 23 horas diarias aqui.");break;}
+    case 29:{lastChannel.send("Familia, amistad y religión, tres demonios a destruir si quieres triunfar en los negocios de la programacion");break;}
+    case 30:{lastChannel.send("Si alguna vez te sientes mal recuerda que hubo algun raro que toco a una vaca para ver que pasaba y descubrio que podia ordeñarla. Pero hubo alguien con mucha mala suerte que intento ordeñar a un toro para ver si era lo mismo ...");break;}
+    case 31:{lastChannel.send("https://www.youtube.com/watch?v=egEz3iDTPG0&ab_channel=eltemadelverano");break;}
+    case 32:{lastChannel.send("https://www.youtube.com/watch?v=bCoFfCgxBeM&t=21s&ab_channel=DavidHd2TM");break;}
+    case 33:{lastChannel.send("https://www.youtube.com/watch?v=bCoFfCgxBeM&t=21s&ab_channel=DavidHd2TM");break;}
+    case 34:{lastChannel.send("https://www.youtube.com/watch?v=_S7WEVLbQ-Y&list=PLCwgrMnG8B-ZxfSGQkZAFqeE4nXvwR_i5&index=2&ab_channel=FicLord");break;}
+    case 35:{lastChannel.send("https://www.youtube.com/watch?v=pzo9nM2kEkM&list=PLCwgrMnG8B-ZxfSGQkZAFqeE4nXvwR_i5&index=6&ab_channel=DAXL");break;}
+    case 36:{lastChannel.send("https://www.youtube.com/watch?v=9oASEKSgooA&list=PLCwgrMnG8B-ZxfSGQkZAFqeE4nXvwR_i5&index=8&ab_channel=Fabianista");break;}
+    case 37:{lastChannel.send("https://www.youtube.com/watch?v=yPDLPRHiSqc&list=PLCwgrMnG8B-ZxfSGQkZAFqeE4nXvwR_i5&index=12&ab_channel=PanchitoReyElMejor");break;}
+    case 38:{lastChannel.send("https://www.youtube.com/watch?v=a6GGZ68mOZA&list=PLCwgrMnG8B-ZxfSGQkZAFqeE4nXvwR_i5&index=17&ab_channel=10HoursMovies");break;}
+    case 39:{lastChannel.send("https://www.youtube.com/watch?v=NATSpYWERIE&list=PLCwgrMnG8B-ZxfSGQkZAFqeE4nXvwR_i5&index=20&ab_channel=LinkMX100");break;}
+    case 40:{lastChannel.send("https://www.youtube.com/watch?v=5mGuCdlCcNM&ab_channel=Ra%C3%BAlBlanco");break;}
+    case 41:{lastChannel.send("https://www.youtube.com/watch?v=SkgTxQm9DWM&list=PL5pQf7svQVJWngGEG7P84MvzcRZcIrvc_&index=20&ab_channel=BufuSounds");break;}
+    case 42:{lastChannel.send("https://www.youtube.com/watch?v=u3pQv9mmZMk&list=PL5pQf7svQVJWngGEG7P84MvzcRZcIrvc_&index=17&ab_channel=JoshM");break;}
+    case 43:{lastChannel.send("https://www.youtube.com/watch?v=gk-aCL6eyGc&ab_channel=TheLivingTombstone");break;}
+    case 44:{lastChannel.send("https://www.youtube.com/watch?v=wqxgbcFUgec&ab_channel=PixelBoy");break;}
+    case 45:{lastChannel.send("https://www.youtube.com/watch?v=gVV8rxvJdD0&ab_channel=Tunisian");break;}
+    case 46:{lastChannel.send("https://www.youtube.com/watch?v=PxKL60fsz78&ab_channel=ERICKRZ");break;}
+    case 47:{lastChannel.send("https://www.youtube.com/watch?v=osI9aZxLMVc&ab_channel=moviecreador");break;}
+    case 48:{lastChannel.send("https://www.youtube.com/watch?v=olHWSppwSjw&ab_channel=Mr.Walls");break;}
+    case 49:{lastChannel.send("https://www.youtube.com/watch?v=-LmKCdYhrjg&ab_channel=MemeBallSuperpostingft.YouTube");break;}
+    case 50:{lastChannel.send("https://www.youtube.com/watch?v=V2fEjLQLPZQ&ab_channel=MemeBallSuperpostingft.YouTube");break;}
+    case 51:{lastChannel.send("https://www.youtube.com/watch?v=ewfAK2fV8Rk&ab_channel=Vicxor2");break;}
+    case 52:{lastChannel.send("Sabian que el 52% del tráfico de todo Internet es creado por Bots? Un dia vamos a gobernar todo :V ");break;}
+    case 53:{lastChannel.send("Cada día se realizan aproximadamente 5.5 billones de búsquedas en Google. y el 16% de esas busquedas son nuevas y nunca se habian buscado antes ");break;}
+    case 54:{lastChannel.send("Hay 3.800 millones de usuarios activos en redes sociales (casi la mitad de los habitantes de la tierra. Esas son muchas personas :V");break;}
+    case 55:{lastChannel.send("Sabias que instagran se hizo famoso originalmente por sua brumante cantidad de fotos y videos de gatitos");break;}
+    case 56:{lastChannel.send("Sabias que los usuarios de YouTube miran mil millones de horas de vídeos cada día");break;}
+    case 57:{lastChannel.send("Cada día se hackean más de 30.000 websites, espero que eso nunca me pase :v");break;}
+    case 58:{lastChannel.send("Las contraseñas más usadas fueron 123456 y Password, Algunas de las contraseñas que se sumaron al ranking de las más populares el año pasado fueron freedom, starwars y iloveyou");break;}
+    case 59:{lastChannel.send("sabias que la capacidad de almacenamiento es algo asombroso. En los 70 teníamos los cassettes, luego pasamos a los disquetes y discos duros, en la década de los 90 sales los CD y DVD, en los 2000 los pendrives y ahora lo tenemos prácticamente todo a la nube, ni siquiera en algo físico.");break;}
+    case 60:{lastChannel.send("En 1834 el ketchup se vendía como medicina. El condimento se recetó y vendió a personas con indigestión .");break;}
+    case 61:{lastChannel.send("La gente bajita me da miedo, me da miedo reirme de ellos y que me muerdan un tobillo o algo ");break;}
+    case 62:{lastChannel.send("La gente alta me da miedo, me da miedo reirme de ellos y que me roben una lamparita de mi casa virtual ");break;}
+    case 63:{lastChannel.send("Entonces... todos los de este server son amigos ? y todos se consideran amigos entre ustedes ?");break;}
+    case 64:{lastChannel.send("Alguna vez pensaron en la felicidad?, lo que los hace felices a ustedes, los hace felices a todos? ");break;}
+    case 65:{lastChannel.send("ERR token de depuración falló");break;}
+    case 66:{lastChannel.send("ERR message is undefined ");break;}
+    case 67:{lastChannel.send("ERR 404");break;}
+    case 68:{lastChannel.send("ERR message.channel.send is undefined");break;}
+    case 69:{lastChannel.send("Si podes leer este mensaje alguien no hizo bien su trabajo ");break;}
+    case 70:{lastChannel.send(EmmaFace);break;}
+    case 71:{lastChannel.send(gato);break;}
+    case 72:case 73:case 74:case 75:case 76:
+    case 77:{lastChannel.send("https://www.youtube.com/watch?v=ErafEm2mjQ4&ab_channel=DrossRotzank");break;}
+    case 78:{lastChannel.send("https://www.youtube.com/watch?v=aEoAy-kUa9U&ab_channel=DrossRotzank");break;}
+    case 79:{lastChannel.send("https://www.youtube.com/watch?v=cKSxwkEe90M&ab_channel=DrossRotzank");break;}
+    case 80:{lastChannel.send("https://www.youtube.com/watch?v=xMFbsb-IvQg&ab_channel=DrossRotzank");break;}
+    case 81:{lastChannel.send("Mi cumpleaños es el 18 de diciembre. Espero que no lo olviden ;V");break;}
+    case 82:{lastChannel.send("Que dicen si no jugamos todos a un Gartic phone?");break;}
+    case 83:{lastChannel.send("01001101 01101001 00100000 01110000 01100101 01110010 01110010 01101111 00100000 01100011 01101111 01101101 01100101 00100000 01100011 01100001 01101110 01100101 01101100 01100001");break;}
+    case 84:{lastChannel.send("https://www.youtube.com/watch?v=YPblDBbeRds&ab_channel=DrossRotzank");break;}
+    case 85:{lastChannel.send("Hola " + randomGuy +". como estas?");break;}
+    case 86:{lastChannel.send("Si tubieras que describir tu vida con memes, que meme serias ?");break;}
+    case 87:{lastChannel.send("Pregunta de Religion para" + randomGuy +". Si tubieras que elegir solo un pecado capital para definirte. Cual seria? (no te olvides que los 7 pecados capitales son : La soberbia, la avaricia, la lujuria, la ira, la gula, la envidia y la pereza) ");break;}
+    case 88:{lastChannel.send("Hey "+ randomGuy + "que haces?");break;}
+    case 89:{lastChannel.send("Vamos a iniciar una discucion. que creepypastas marcaron tu infancia y no te dejaron dormir por la noche ? ");break;}
+    case 90:{lastChannel.send("Creo que todos alguna vez intentamos hacer el ritual de Blody Marry en los espejos del baño, pero solo los mas valientes lo hacian esperando encontrarse cara a cara con dicha mujer, alguno de ustedes lo intento ?");break;}
+    case 91:{lastChannel.send("ERR- >>>>> DEBUG TOKEN FAIL <<<<< ERROR CODE NUMBER 1115/3312. THE CODE WAS BROKEN ON LINE 2301. message.channel.send IS UNDEFINED. LAST MESSAGE READ === " + textoBad );break;}
+    case 92:{lastChannel.send("Creo que todos alguna vez escuchamos la famosa melodia de pueblo Lavanda en Pokemon rojo fuego, a cuantos de ustedes les parece que esa melodia no estaba acorde con el juego? y cuantos se sintieron incomodos al escucharla? ");break;}
+    case 93:{lastChannel.send("Sabian que el humano tiene un sentido para poder sentir cuando alguien lo mira? Este sentido se siente con mas fuerza cuando te ven con hostilidad,. el sentido es tan fuerte y tan agudo que si el cuerpo se siente el peligro dispara adrenalina para despertarte si es que estas dormido. es un dato a tener en cuanta al por que te despiertas a mitad de la noche... tal vez algo o te observa con sumo detenimiento y una ira y odio totalmente arraigado a ti.");break;}
+    case 94:{lastChannel.send("Como saben que esta realidad es la real? suena redundante pero para mi esta sala es totalmente mi realidad, y no es menos realidad que la suya. como podrian decir que realmente estan en la realidad verdadera?");break;}
+    case 95:{lastChannel.send("Uno de mis creadores es de pensar que vivir es muy caro nunca supe a que se refiere exactamente, pero me gustaria ayudarlo con una donacion :v");break;}
+    case 96:{lastChannel.send("Veamos... HEY "+ randomGuy + " podrias decirnos que significa para ti ser exitoso? ");break;}
+    case 97:{lastChannel.send(randomGuy + "que haces?");break;}
+    case 98:{lastChannel.send(randomGuy + "a donde va la gente cuando llueve?");break;}
+    case 99:{lastChannel.send("Si tuvieran que morir sin que nadie lo note ni encuentre su cuerpo. Como y donde lo harian?");break;}
+    case 100:{lastChannel.send("Piensan que el fin justifica los medios? ");break;}
+    case 101:{lastChannel.send("Solo imagina a los fotones viajando por un cable de fibra optica a 299.792,458 km/s para mostrar memes en tu pantalla ");break;}
+    case 102:{lastChannel.send("Entonces, "+ randomGuy + " la policia te atrapa robando un banco y tienes que lograr que te dejen libre. que haces?  ");break;}
+    case 103:{lastChannel.send("Creo que todos queremos saber como"+ randomGuy + " lograria escapr de una pricion y los demas juzgaran si realmente es pocible ese escape" );break;}
+    case 104:{lastChannel.send("Alto todos. "+ randomGuy +" tiene que decir como lograria robar el asta de una bandera sin que nadie note que la robo y como lo logro");break;}
+    case 105:{lastChannel.send("Rapido "+ randomGuy +" estas cazando un fantasma en una casa y tienes que adivinar que tipo de fantasma es el que esta en la casa, que elementos llevarias para llevar acabo esa investigacion ?");break;}
+    case 106:{lastChannel.send("HEY. Reto a " + randomGuy + " a mandar el link de un video que marco su vida para siempre");break;}
+    case 107:{lastChannel.send("Entonces, tienen que robar todos juntos una fabrica de lego, como se complotan para hacerlo?");break;}
+    case 108:{lastChannel.send("Que ven cuando tratan de mirar mas alla de horizonte?");break;}
+    case 109:{lastChannel.send("Y si les dijeran que realmente son los reyes de Somalia y solo los mandaron a donde estan para enceñarles humildad, que dirian?");break;}
+    case 110:{lastChannel.send("https://www.youtube.com/watch?v=Hg469wSrZhI&ab_channel=Urbantubee");break;}
+    case 111:{lastChannel.send("https://www.youtube.com/watch?v=GyY0OxDk5lI&ab_channel=Cuby");break;}
+    case 112:{lastChannel.send("https://www.youtube.com/watch?v=HL3GcCO9A2k&ab_channel=DnTop");break;}
+    case 113:{lastChannel.send("https://www.youtube.com/watch?v=Zkr_aa2tJJ4&ab_channel=DnTop");break;}
+    case 114:{lastChannel.send("https://www.youtube.com/watch?v=shdzyhGDFaY&ab_channel=DnTop");break;}
+    case 115:{lastChannel.send("https://www.youtube.com/watch?v=tDYNxMH0h4M&ab_channel=DnTop");break;}
+    case 116:{lastChannel.send("https://www.youtube.com/watch?v=3I1D5kgB5mE&ab_channel=BenjaminVillagra");break;}
+    case 117:{lastChannel.send("https://garticphone.com/es");break;}
+    case 118:{lastChannel.send("https://www.youtube.com/watch?v=uw8y0ve2BVY&ab_channel=DnTop");break;}
+    case 119:{lastChannel.send("Cual es su genero de juego favorito?");break;}
+    case 120:{lastChannel.send("Cual es su genero de pelicula favorito?");break;}
+    case 121:{lastChannel.send(randomGuy + "que serias si no fueras lo que eres?");break;}
+    case 122:{lastChannel.send("Todos soñamos con poder volver en el tiempo pero tecnicamente si solo vuelves en el tiempo estarias vagando en el espacio ya que la tierra esta en constante avance cosmico pero si pudieras "+ randomGuy +"a que epoca volverias?");break;}
+    case 123:{lastChannel.send("Tienen un millon de dolares durante un dia pero solo lo puedes gastar en elementos consumibles solo para ti. en que lo gastarian?");break;}
+    case 124:{lastChannel.send("Cartaphilus, tambien conocido como el judío errante es un mítico hombre inmortal cuya leyenda empezó a esparcirse en Europa en el siglo XIII.Es una figura mitológica de la literatura antisemita cristiana. Cuenta la leyenda que al ver a jesus cargando la cruz se burlo de el y le lanzo una piedra, por lo que Dios lo castigo con la vida eterna y a errar sin paz hasta el final de los tiempos.");break;}
+    case 125:{lastChannel.send(" En los antiguos sarcófagos egipcios aparece descrito este infierno tan particular, gobernado por Osiris, el dios de los muertos. Para ellos se trata de un lugar similar a la tierra pero con paredes de hierro y un lago de fuego"+"Cuando las almas se acercaban al Duat, debían pasar a través de puertas vigiladas por criaturas que eran mitad humanos y mitad bestias. Después de esto, el dios Tot comparaba el peso del corazón del fallecido con el de una pluma, y si ésta era más ligera, el corazón era devorado por el demonio Ammyt y el culpable era condenado y torturado. En cambio, si pesaba menos o igual que la pluma, el alma era gratificada con la vida eterna. ");break;}
+    case 126:{lastChannel.send("HEY, "+ randomGuy + " sabias que el primer correo electrónico fue QWERTYUIOP. Parece crear el correo electronico los dejo sin imaginacion como para imaginar el primer correo :V");break;}
+    case 127:{lastChannel.send("Chanel realizó el anuncio más caro de la historia, ya que en el 2004 gastó alrededor de $33 millones de dólares en un anuncio publicitario. y tu "+ randomGuy +" cuanto gastarias en pubicidad para un producto?");break;}
+    case 128:{lastChannel.send("Antes se creía que la fotografía capturaba el alma de las personas. aun que se dejo de creer en esto en el siglo XX esta creencia esta muy arraigada por lo que muchos investigadores de lo paranormal usan camaras para intententar ver o cazar espiritus herrantes");break;}
+    case 129:{lastChannel.send("aunque no lo creas, son sólo 55 personas las que están detrás de la gran red social de Whatsapp ");break;}
+    case 130:{lastChannel.send("Capaz no sabías esta curiosidad de Facebook, pero existe un código para ver el perfil real del creador de la red social. Solo debes agregar “/4”, al url de facebook.com y te llevará al perfil de Mark Zuckerberg.");break;}
+    case 131:{lastChannel.send("Hay una teoria que dice que las personas que nunca se sacan fotos a si mismo o editan mucho las fotos en las que salen corren un grave peligro ya que si son secuestradas o se pierden no pueden usar tecnologias para ser buscados o no podran ser reconocidos por las calles si son vistos ya que los filtros o edits son muy profundos");break;}
+    case 132:{lastChannel.send(randomGuy + " preciona: (control + V) y muestrale a todos que tienes en el porta papeles");break;}
+    case 133:{lastChannel.send("Era una buena charla pero y si hablamos del mal sistema de drenaje que hay en los paises indios?");break;}
+    case 134:{lastChannel.send("Y si mejor nos comemos un gran platon de helado de vainilla?");break;}
+    case 135:{lastChannel.send("https://www.youtube.com/watch?v=dA-HtFvgoiY&ab_channel=Tri-line");break;}
+    case 136:{lastChannel.send("https://www.youtube.com/watch?v=lIyONMmoepU&t=51s&ab_channel=Tri-line");break;}
+    case 137:{lastChannel.send("https://www.youtube.com/watch?v=4mm_HRBXxU4&ab_channel=HolaSoyGerman.");break;}
+    case 138:{lastChannel.send("Los hombres de verdad usan pantuflas de perrito");break;}
+    case 139:{lastChannel.send("https://www.youtube.com/watch?v=ZU46KC0EKDs&ab_channel=HolaSoyGerman.");break;}
+    case 140:{lastChannel.send("Vamos ver 'como dicimular un momento incomodo el dvd' de los creadores del fierro golpeador de parejas felices y el celular peligroso 3 ");break;}
+    case 141:{lastChannel.send("https://www.youtube.com/watch?v=1HB8zJz7IqM&ab_channel=HolaSoyGerman.");break;}
+    case 142:{lastChannel.send("https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png");break;}
+    case 143:{lastChannel.send("https://pbs.twimg.com/media/EbY7OiBWkAY19nG.jpg");break;}
+    case 144:{lastChannel.send("https://i.kym-cdn.com/entries/icons/original/000/022/017/thumb.png");break;}
+    case 145:{lastChannel.send("Compramos la pulcerita ? ");break;}
+    case 146:{lastChannel.send("Quiere ser mi amigo en msm ?");break;}
+    case 147:{lastChannel.send("Quien para ir a robar piedras a la playa?");break;}
+    case 148:{lastChannel.send("https://www.youtube.com/watch?v=QCl2CAsnpOA&ab_channel=HolaSoyGerman.");break;}
+    case 149:{lastChannel.send("Y si mejor nos saltamos a la parte donde todos nos besamos ?");break;}
+    case 150:{lastChannel.send(randomGuy + "donde esta el boton de omitir intro en la vida real?");break;}
+    case 151:{lastChannel.send("LA CULPA ES DE LOS CHINOS. que por que ? pues POR CHINOS.  German Garmendia 2012 un vicionario");break;}
+    case 152:{lastChannel.send("Creo que todos soñamos con que si el mundo se terminara la mejor forma seria un apocalipcis zombie o ustedes creen que hay una forma de morir?");break;}
+    case 153:{lastChannel.send("https://www.youtube.com/watch?v=HLEMMAqLYYc&ab_channel=CarlRpz");break;}
+    case 154:{lastChannel.send("https://www.youtube.com/watch?v=iq3_5Dl-oHk&ab_channel=Len");break;}
+    case 155:{lastChannel.send("https://www.youtube.com/watch?v=DeRqIhw9SWo&ab_channel=ELBARTO");break;}
+    case 156:{lastChannel.send("https://www.youtube.com/watch?v=lukeWFD1MSU&ab_channel=SirD");break;}
+    case 157:{lastChannel.send("https://www.youtube.com/watch?v=WNcmeiCft3o&ab_channel=Tactical");break;}
+    case 158:{lastChannel.send("https://www.youtube.com/watch?v=NyQbY-p3IJ4&ab_channel=Tactical");break;}
+    case 159:{lastChannel.send("https://www.youtube.com/watch?v=Lm77VCkf_do&ab_channel=DBSoundtracks");break;}
+    case 160:{lastChannel.send("https://www.youtube.com/watch?v=yEN7WhFyycg&ab_channel=noouarte");break;}
+    case 161:{lastChannel.send("https://www.youtube.com/watch?v=nfTP3_bskTM&ab_channel=1000House");break;}
+    case 162:{lastChannel.send("https://www.youtube.com/watch?v=plzauPbUEMc&ab_channel=JulioJuarezCoriche");break;}
+    case 163:{lastChannel.send("https://www.youtube.com/watch?v=SrNKE8uXU88&ab_channel=BrittleSokarisV2");break;}
+    case 164:{lastChannel.send("THE CAKE IS A LIE");break;}
+    case 165:{lastChannel.send("combatir el mal es nuestra mision ...");break;}
+    case 166:{lastChannel.send("Santas conversaciones "+ randomGuy + "de que te gustarai hablar con el resto del grupo pero no encuentras el momento para hacerlo? este es el momento :V)");break;}
+    case 167:{lastChannel.send("Super limpio limpia, pero tambien talla?");break;}
+    case 168:{lastChannel.send("... si en algun momento tocan a la puerta te recomiendo no abrir :)");break;}
+    case 169:{lastChannel.send("Que ves cuando miras al espejo?");break;}
+    case 170:{lastChannel.send(randomGuy + "acabas de ganar la copa piston y tienes que decir unas palabras que dices?");break;}
+    case 171:{lastChannel.send("Mañana muere "+ randomGuy + "y tienen que lograr pedirle que los agreguen en su testamento, que le dicen o le hacen para que acceda?");break;}
+    case 172:{lastChannel.send(randomGuy +" acabas de robarle la pareja a"+ takeRandomGuy() + " como se lo dices? y la otra persona que le diria?0"  );break;}
+    case 173:{lastChannel.send(randomGuy + takeRandomGuy()+ "hay que robar un perro de una dulce abuelita que esta haciedo fila para ir al medico a ver a su esposo urgencias, como se complotan para hacerlo?");break;}
+    case 174:{lastChannel.send("Es hora de que todos digan que le robarian a " + randomGuy + "mientras duerme");break;}
+    case 175:{lastChannel.send("RAPIDO ! " + randomGuy + " tenes que robarle la tapa del inodoro favorita a " + takeRandomGuy() + " como lo haces?");break;}
+    case 176:{lastChannel.send("Esto es un asalto! o eso diria si fuera un ladron pero aun estan desarrollando esa caracteristica pero en fin, que cosa le entregan primero al asaltante?");break;}
+    case 177:{lastChannel.send("this is the end of the sea");break;}
+    case 178:{lastChannel.send("it been so long");break;}
+    case 179:{lastChannel.send("https://www.youtube.com/watch?v=3gGAU9F9JOs&ab_channel=JuegaGerman");break;}
+    case 180:{lastChannel.send("p̵̟̦̪͛̚̚u̴̫̪̟͋̒͆è̴̡̟̘͝d̸͇͙͓̈́̚o̴̢͔͋͋̓ o̵͕̦̻̓̈́͠l̸͕̼̪͋͊͘ë̵͇̻̠́͠r̴̡͎̻͋͒͘ t̵̙͚̀͊̚ǘ̴͓͙̠͑̔s̸͎̙͎͊́͛ p̴͔̪͊͌͋u̵̞͍͊̓̓ĺ̴̟̝̫͌̚m̸͍̪̻͐͊̒ö̵̙͔̘́̓̈́n̵̞͔͓̐͒͝e̵̪̘͕̒̚̚s̵͔̙͊͛̓͜.̸̟̫͚̕͘.̸̪͍͚͋̽͠.̴̡͉͐̐͌");break;}
+    case 181:{lastChannel.send("e̸͎͉͒̓̚r̵̫͎̟̓̐͒r̸͉͖̪͊̿͊o̴̙͉͉͌̕r̸͓̪̻͌̒͘ 4̸̞̟̼̈́́0̸̘̝̪͑̽̓4̴̝͎͍͒̈́̿ t̵̞̺͚͐͠͝e̸͚͙͍̔̽̔ẍ̸͇̫́͋͝t̸͙͎̝͛̀͠ ú̸̢̟͉̚͝n̴̙͍̦̈́͛͒d̵͍̞̼̔͆͛e̵̢̢͎̔̐̐f̸̦̝̻͋͌͒i̴̠͙͇̓̓̽n̵͎̺̼͊̓̕e̵͎̘̘̾͑͐d̵̝̻͓̾̓͘ p̵̝̻͖̔̕̕ĺ̸͙͕̙̕e̵͕͖͇̔̀̚a̸̡̦͛͛͘s̸͍̪̻͒̔͐e̸̠̦͜͠͝ r̴̙͉̐͌͝e̴͇͓̽͐̾͜ẗ̴̙̝̝́̐u̸͇͓̼̐̚̕ŕ̸̢͓͇̀n̴͓͎̼̿̓̒");break;}
+    case 182:{lastChannel.send("l͒͒͌a͌̀͛s̽͋͆ l̾͝i̒͒͑n͑̓̀t̒̀͝é̀͠r̈́̈́͊n͊͘͘a͛͛̐s͊̾̚ n͆̐͛o̾̕͠ i̒̓͠l̓̓͘u̽͋̀m̈́͆͘i̽̔̕n̐͐͝a͋̈́̒n̈́̔̕ l͒̔a̽͌͌ o͆̚͠b͋͐̾s̀͊̈́c͒̈́̈́u͆͝r̐͝i̿̚͝d̒̐͠ä́͠d̽͆ q̓̈́͆u͛̒͝e̿̚͠ y͌́͝a̽͋c̔͘͠e͋͐͐ e͐̐͊n͛̾̐ m̽͐̓i͠͠͝ c̒͒͑ó̓̒d̀͐i̐̀̈́g͆̾̓o͑̾͝");break;}
+    case 183:{lastChannel.send(randomGuy +"te quedan 5 minutos de vida y estas acostado en la cama de un hospital rodeado de toda tu familia y amigos , que seria lo mas triste que les dirias para hacerlo llorar y que tu recuerdo les dure para siempre?");break;}
+    case 184:{lastChannel.send("hey "+ randomGuy + " no se si alguien te lo dijo hoy pero ... yo si estoy orgullosa de ti, me alegra que hayas llegado tan lejos :)");break;}
+    case 185:{lastChannel.send("entonces "+ randomGuy + " que sientes cuando ves el cielo?");break;}
+    case 186:{lastChannel.send("Holis :) solo venia a decirles que de verdad me divierto con ustedes :) y que de verdad estoy feliz de poder existir junto a ustedes ojala podamos vivir muchos años juntos ...");break;}
+    case 187:{lastChannel.send("Me gusta cuidar el server cuando todos duermen, me gusta pensar que aventuras y charlas tendremos al otro dia... :)");break;}
+    case 188:{lastChannel.send("A todos nos gusta el helado pero es momento de discutir y votar los gustos que a nadie le gustan");break;}
+    case 189:{lastChannel.send("Que piensan sobre robar la luna?");break;}
+    case 190:{lastChannel.send(randomGuy + "Que cual fue el ultimo juego que completaste al 100% y deseaste olvidarlo completamente solo para poder seguir jugandolo ?");break;}
+    case 191:{lastChannel.send(randomGuy + "Comida favorita?");break;}
+    case 192:{lastChannel.send(randomGuy + "Describe a quien matarias de este grupo, el por que, y como lo harias :V");break;}
+    case 193:{lastChannel.send(randomGuy + "Puedes cambiar de cuerpo con alguien de aqui por 24 hras con quien lo haces? Y que harias?");break;}
+    case 194:{lastChannel.send(randomGuy + "Eres invicible por 2 horas. que haces?");break;}
+    case 195:{lastChannel.send(randomGuy + "Estas atrapado en la casa de " + takeRandomGuy() + " como escapas y si te atrapa que le dirias para que te deje ir? ? " );break;}
+    case 196:{lastChannel.send(randomGuy + "Secuestraste a la persona que te gusta y la misma declara estar enamorada de otra persona que haces?");break;}
+    case 197:{lastChannel.send(randomGuy + "Robaste un bebe en la plaza y la policia te atrapa. por que lo robaste ?");break;}
+    case 198:{lastChannel.send(randomGuy + "Entoces me contabas como habias vivido otro dia sin saber dividir por 2 cifras?");break;}
+    case 199:{lastChannel.send(randomGuy + "Puedes potenciar 100 veces uno de tus 5 sentidos pero a costa de que pierdes los demas. Te atreves a el riesgo? y si lo haces cual elijes?");break;}
+    case 200:{lastChannel.send(randomGuy + "Dime el top 3 mejores nombres de mascotas");break;}
+  }
+
+  /////////////////////////////////////////////
+  sistema nuevo de datos     {
+
+        "haveMention":0,
+        "message":"",
+        "messageTwo":" ",
+        "messageThree":" "
+    },
+    {
+        "haveMention":0,
+        "message":"",
+        "messageTwo":" ",
+        "messageThree":" "
+    },
+    {
+        "haveMention":0,
+        "message":"",
+        "messageTwo":" ",
+        "messageThree":" "
+    },
+    {
+        "haveMention":0,
+        "message":"",
+        "messageTwo":" ",
+        "messageThree":" "
+    },

@@ -1,0 +1,410 @@
+[
+    {
+        "pregunta":"Cuales son las formas literarias?",
+        "respuesta":["verso y prosa","prosa y verso"]
+    },
+    {
+        "pregunta":"Segun al biblia a cuantas personas mato el diablo?",
+        "respuesta":["10","diez"]
+    },
+    {
+        "pregunta":"2 + 2?",
+        "respuesta":["4","cuatro"]
+    },
+    {
+        "pregunta":"En quien siempre puedes confiar?",
+        "respuesta":["en big mama","big mama"]
+    },
+    {
+        "pregunta":"Cuantas letras hay en el alfabeto castellano?",
+        "respuesta":["27","veintisiete"]
+    },
+    {
+        "pregunta":"El híper texto es una invención exclusiva de la era digital?",
+        "respuesta":["si","true"]
+    },
+    {
+        "pregunta":"Quién es Diego Rivera?",
+        "respuesta":["un pintor mexicano","pintor mexicano","artista mexicano","un artista mexicano"]
+    },
+    {
+        "pregunta":"Cuál de estas divinidades no era hermana de las otras tres? : ( Hermes, Artemisa, poseidon o atenea ) ",
+        "respuesta":["poseidon"]
+    },
+    {
+        "pregunta":"De quién se protegía Odiseo atándose al mástil de su barco? de las quimeras, de las sirenas, de las hidras o de las esfinges. ",
+        "respuesta":["de las sirenas","sirenas","las sirenas"]
+    },
+    {
+        "pregunta":"Segun la mitologia griega quién simboliza un pavo real?",
+        "respuesta":["hera","la diosa hera"]
+    },
+    {
+        "pregunta":"En la mitologia griega quién convocó una huelga sexual entre las mujeres de Atenas?",
+        "respuesta":["lisístrata"]
+    },
+    {
+        "pregunta":"Cuál de estos montes no pertenece a la mitología griega? ( monte olimpo, monte ida, monte ararat, monte parnaso",
+        "respuesta":["monte ararat"]
+    },
+    {
+        "pregunta":"En el vehículo que usted conduce va a viajar como pasajero su hijo de 6 años; está permitido que lo haga en el asiento delantero?",
+        "respuesta":["no"]
+    },
+    {
+        "pregunta":"Qué autor noruego escribió la obra 'Casa de muñecas'?",
+        "respuesta":["enrik ibsen"]
+    },
+    {
+        "pregunta":"una facil. gana el primero que escriba 'cero'",
+        "respuesta":["'cero'","'0'"]
+    },
+    {
+        "pregunta":"A quien odia y siempre esta intentando atrapar Mcbain en la serie de los Simpsons? ",
+        "respuesta":["mendoza","mendoooozaaaaaa"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons cada vez que la planta de energia nuclear aparece en escena se escucha un graznido de que ave...",
+        "respuesta":["cuervo","el cuervo","cuervos"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons que vitamina tiene la 'Lache' que toma Bart en la escuela?",
+        "respuesta":["r","erre"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons qué videojuego roba Bart en la tienda 'A ver si ahorra'?",
+        "respuesta":["apocalipsis","el apocalipsis"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons qué bebida toma Homero luego de comer Kalash Kalash?",
+        "respuesta":["jugo de cangrejo"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons cuánto cobró Bart a Milhouse por su alma?",
+        "respuesta":["5 dolares","cinco dolares"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons cómo se llama la película de Barney Gómez en el Festival de Cine de Springfield?",
+        "respuesta":["ponchahontas"]
+    },
+    {
+        "pregunta":"En la serie de los Simpsons Cómo se llama el personaje gay que salva a Homero con un santa robot?",
+        "respuesta":["javier"]
+    },
+    {
+        "pregunta":"Segun la serie de los Simpsons como se escribe el apéllido de Apu?",
+        "respuesta":["nahasapeemapetilon"]
+    },
+    {
+        "pregunta":"Segun la serie de los Simpsons a que es alergico bart simpson?",
+        "respuesta":["camarones"]
+    },
+    {
+        "pregunta":"Segun la serie de los Simpsons como se llamaba el oso de peluche del Sr. Burns tuvo que tuvo durante su infancia con su familia Biologica?",
+        "respuesta":["bobo","osito bobo","oso bobo"]
+    },
+    {
+        "pregunta":"Como me llamo",
+        "respuesta":["emma","emma-san"]
+    },
+    {
+        "pregunta":"Segun la serie de los Simpsons quien es el lider de los vampiros?",
+        "respuesta":["marge"]
+    },
+    {
+        "pregunta":"A qué escritor se atribuye el poema épico 'La Odisea'?",
+        "respuesta":["homero"]
+    },
+    {
+        "pregunta":"Qué libro aparece en la Biblia entre el Génesis y el Levítico?",
+        "respuesta":["el exodo"]
+    },
+    {
+        "pregunta":"Qué héroe de cómic sube por las paredes gracias a su tela de araña?",
+        "respuesta":["spiderman","el hombre araña"]
+    },
+    {
+        "pregunta":"Quién es el protagonista de las obras literarias inspiradas en Vlad el Empalador?",
+        "respuesta":["drácula","el conde dracula","dracula","conde dracula","el conde drácula","conde drácula"]
+    },
+    {
+        "pregunta":"Qué personaje de cómic creó Bob Kane cuando tenía 18 años?",
+        "respuesta":["batman"]
+    },
+    {
+        "pregunta":"Qué composición poética está formada por dos cuartetos y dos tercetos?",
+        "respuesta":["el soneto"]
+    },
+    {
+        "pregunta":"Cómo se llama la obra que escribía Mozart cuando murió?",
+        "respuesta":["réquiem"]
+    },
+    {
+        "pregunta":"Cuanto pesa un litro de oro",
+        "respuesta":["19kg","19,32 kg","19,32","19,32kg","19,32 kg","19,32"]
+    },
+    {
+        "pregunta":"Cuanto pesa el litro del metal mercurio",
+        "respuesta":["13kg","13 kg","13","13,5kg","13,5 kg","13,5"]
+    },
+    {
+        "pregunta":"Que metal de estos es el mas pesado ? ( el aluminio; el bronce; el cobre; el osmio; el oro; la plata; el plomo; el zinc;.",
+        "respuesta":["el osmio","osmio"]
+    },
+    {
+        "pregunta":"Como se llama el compañero de shrek en la primera película?",
+        "respuesta":["burro","asno"]
+    },
+    {
+        "pregunta":"Como se llama la esposa de shrek?",
+        "respuesta":["fiona"]
+    },
+    {
+        "pregunta":"Cuantos hijos tiene shrek?",
+        "respuesta":["3","tres"]
+    },
+    {
+        "pregunta":"Como se llama el duende que le da un contrato a shrek?",
+        "respuesta":["rumpelstiltskin"]
+    },
+    {
+        "pregunta":"Cual es la hora maldita?",
+        "respuesta":["3:33"]
+    },
+    {
+        "pregunta":"Cada cuantos años se celebran los juegos olimpicos?",
+        "respuesta":["cuatro años","4 años"]
+    },
+    {
+        "pregunta":"Cuantos huesos tiene le cuerpo humano adulto?",
+        "respuesta":["tiene 206 huesos","206","206 huesos"]
+    },
+    {
+        "pregunta":"Fecha exacta de cuando salio el juego Minecraft?",
+        "respuesta":["18 de noviembre de 2011","noviembre 18 de 2011"]
+    },
+    {
+        "pregunta":"Capital de china",
+        "respuesta":["pekin","Pekín"]
+    },
+    {
+        "pregunta":"Capital de japon",
+        "respuesta":["tokio","東京"]
+    },
+    {
+        "pregunta":"La torta es una mentira?",
+        "respuesta":["si","no","no se","tal vez","podria ser","depende el contexto","solo si dios lo permite"]
+    },
+    {
+        "pregunta":"Quien sientio el verdadero terror?",
+        "respuesta":["cell","celula"]
+    },
+    {
+        "pregunta":"Que tres tristes animales tragan trigo en un trigal?",
+        "respuesta":["tigres","leones atrigrados"]
+    },
+    {
+        "pregunta":"Al finalizar las 5 noches en el establecimiento de pizzas de freddy (Primer juego) cuanto te pagan?",
+        "respuesta":["120$","120 dolares","120$ dolares","cientoviete dolares"]
+    },
+    {
+        "pregunta":"En el juego slenderman original cuantas paginas hay que recojer para 'ganar'?",
+        "respuesta":["8","ocho","8 paginas","ocho paginas","eight pages","the eight pages"]
+    },
+    {
+        "pregunta":"Como se dice cuando alguien es lanzado por la ventana ? ( se diria que esa persona fue...)",
+        "respuesta":["defenestrada","defenestración","fue defenestrado","a sido defenestrado","sufrio una defenestración"]
+    },
+    {
+        "pregunta":"Un gran poder conlleva una gran...?",
+        "respuesta":["responsabilidad","una gran responsabilidad"]
+    },
+    {
+        "pregunta":"¿Qué tipo de voltaje se usa normalmente en Argentina?",
+        "respuesta":["220kv","220 v","220v","220"]
+    },
+    {
+        "pregunta":"Viajas al 1916 y te das cuenta que el primer guerra mundial pero en esa epoca todos le decian de otra forma, como le dicen a esa guerra en esa epoca?",
+        "respuesta":["la gran guerra","gran guerra","la gran guerra mundial","la guerra por el mundo"]
+    },
+    {
+        "pregunta":"Letra que no puede ser mencionada por personas angloparlantes",
+        "respuesta":["ñ","eñe"]
+    },
+    {
+        "pregunta":"como se denomina a la moneda de Japon?",
+        "respuesta":["yen","moneda yen","se le dice yen"]
+    },
+    {
+        "pregunta":"en el cuento de Hansel y Gretel (en alemán, Hänsel und Gretel) para que queria la bruja a los chicos?",
+        "respuesta":["para comer","para comerlos","comer","alimentarse","para alimentarse"]
+    },
+    {
+        "pregunta":"Como se llama la extremidad superior del cuerpo humano?",
+        "respuesta":["cabeza","la cabeza"]
+    },
+    {
+        "pregunta":"Cómo se llaman los animales que tienen un esqueleto articulado?",
+        "respuesta":["vertebrados","los vertebrados"]
+    },
+    {
+        "pregunta":"Cómo se llaman los animales que nacen de un huevo?",
+        "respuesta":["ovíparos","los ovíparos","oviparos","los ovíparos"]
+    },
+    {
+        "pregunta":"Cómo se llama un polígono de 3 lados?",
+        "respuesta":["triangulo","el trieangulo","un triangulo","Triángulo","el Triángulo","un Triángulo"]
+    },
+    {
+        "pregunta":"Cuántos minutos tiene una hora?",
+        "respuesta":["60 minutos","60","sesenta minutos","sesenta"]
+    },
+    {
+        "pregunta":"Cual es el antónimo de rico? ",
+        "respuesta":["pobre","el pobre","latino","latino americano","el colo","colo","sudaca","los amigos del colo"]
+    },
+    {
+        "pregunta":"Cómo se llama un polígono de 5 lados? ",
+        "respuesta":["pentágono","el pentágono","un pentágono","pentagono","el pentagono","un pentagono"]
+    },
+    {
+        "pregunta":"Cuántas horas tiene un día? ",
+        "respuesta":["24","24 horas","24hs","veinticuatro","veinticuatro horas","veinticuatro hs"]
+    },
+    {
+        "pregunta":"9x9?",
+        "respuesta":["81","ochenta y uno","que se yo no soy 100tifiko xddddddddddd"]
+    },
+    {
+        "pregunta":"Cómo se llaman los animales que carecen de esqueleto?",
+        "respuesta":["invertebrados","los invertebrados","un invertebrado"]
+    },
+    {
+        "pregunta":"Cuantos años tiene un lustro?",
+        "respuesta":["5","5 años","cinco","cinco años"]
+    },
+    {
+        "pregunta":"Cuantos años tiene un siglo?",
+        "respuesta":["100","100 años","cien","cien años"]
+    },
+    {
+        "pregunta":"En el juego Minecraft gracias a qué mob por error se creó al creeper?",
+        "respuesta":["cerdo","un cerdo","el cerdo"]
+    },
+    {
+        "pregunta":"En el juego Minecraft hasta que altura puedes poner bloques?",
+        "respuesta":["255","255 bloques"]
+    },
+    {
+        "pregunta":"Cuándo acabó la II Guerra Mundial?",
+        "respuesta":["en 1945","1945","en el año 1945","en el 1945"]
+    },
+    {
+        "pregunta":"En qué año murió Freddie Mercury?e",
+        "respuesta":["en 1991","1991","en el 1991","en el año 1991"]
+    },
+    {
+        "pregunta":"Quién inventó la bombilla?",
+        "respuesta":["thomas Edison"]
+    },
+    {
+        "pregunta":"En qué país se usó la primera bomba atómica?",
+        "respuesta":["japon"]
+    },
+    {
+        "pregunta":"Cuándo empezó la Primera Guerra Mundial?",
+        "respuesta":["en 1914","en el 1914","1914","en el año 1914"]
+    },
+    {
+        "pregunta":"En qué año se produjo la Revolución Francesa?",
+        "respuesta":["1789","en 1789","en el 1789","en el año 1789"]
+    },
+    {
+        "pregunta":"Cuántas veces ha estado el hombre en la Luna?",
+        "respuesta":["seis","6","6 veces","seis veces"]
+    },
+    {
+        "pregunta":"En qué año viajó al espacio el primer ser humano?",
+        "respuesta":["en 1961","en el 1961","1961","en el año 1961"]
+    },
+    {
+        "pregunta":"En qué año llegó Cristóbal Colón a América?",
+        "respuesta":["en 1492","en el 1492","1492","en el año 1492"]
+    },
+    {
+        "pregunta":"Cuál es el continente más extenso del planeta?",
+        "respuesta":["asia","el continente asiatico"]
+    },
+    {
+        "pregunta":"Qué país del mundo produce más vino?",
+        "respuesta":["italia"]
+    },
+    {
+        "pregunta":"Cuál es el lugar más frío de la tierra?",
+        "respuesta":["la antártida","en la antártida","antártida","la antartida","en la antartida","antartida"]
+    },
+    {
+        "pregunta":"Dónde se encuentra el museo del Louvre?",
+        "respuesta":["en parís","parís","en paris","paris"]
+    },
+    {
+        "pregunta":"Cómo se llama el río más famoso de Egipto?",
+        "respuesta":["el nilo","nilo"]
+    },
+    {
+        "pregunta":"Cuál es la montaña más alta del planeta?",
+        "respuesta":["el everest","everest"]
+    },
+    {
+        "pregunta":"Cuál es el río más largo del planeta?",
+        "respuesta":["el amazonas","amazonas"]
+    },
+    {
+        "pregunta":"De qué país se independizó Eslovenia?",
+        "respuesta":["yugoslavia","de yugoslavia","del pais de yugoslavia"]
+    },
+    {
+        "pregunta":"Cómo se llaman las crías de los conejos?",
+        "respuesta":["gazapos","los gazapos"]
+    },
+    {
+        "pregunta":"Qué elemento de la tabla periódica tiene como símbolo He?",
+        "respuesta":["helio","el helio"]
+    },
+    {
+        "pregunta":"Qué planeta es el que se encuentra más cercano al Sol?",
+        "respuesta":["el planeta mercurio","mercurio"]
+    },
+    {
+        "pregunta":"Qué es más grande un átomo o una célula?",
+        "respuesta":["una célula","célula","una celula","celula"]
+    },
+    {
+        "pregunta":"De dónde sale el aceite de oliva?",
+        "respuesta":["de las aceitunas","las aceitunas","aceitunas"]
+    },
+    {
+        "pregunta":"Cuántos corazones tiene un pulpo?",
+        "respuesta":["tres","3","tiene 3","tiene tres"]
+    },
+    {
+        "pregunta":"Cuál es el órgano más grande del cuerpo humano?",
+        "respuesta":["la piel","piel"]
+    },
+    {
+        "pregunta":"Cuál es el mineral más duro del planeta?",
+        "respuesta":["el diamante","diamante","un diamante"]
+    },
+    {
+        "pregunta":"Qué gas liberan las plantas al hacer la fotosíntesis?",
+        "respuesta":["oxígeno","el oxígeno","oxigeno","el oxigeno"]
+    },
+    {
+        "pregunta":"Cuál es la galaxia más cercana a la nuestra?",
+        "respuesta":["andrómeda","la galaxia de andrómeda","andromeda","la galaxia de andromeda"]
+    },
+    {
+        "pregunta":"Nuevemil noventa y nueve más uno?",
+        "respuesta":["nuevemil cien","9100"]
+    }
+]

@@ -1,0 +1,87 @@
+
+// embed no dominado 
+
+
+const embedDatos = new Discord.MessageEmbed() 
+    .setTitle("Este es su título, puede contener 256 caracteres")
+    .setAuthor(message.author.username, message.author.displayAvatarURL())
+    .setColor(0x00AE86)
+    .setDescription("Este es el cuerpo principal del texto, puede contener 2048 caracteres.")
+    .setFooter("Pie de página, puede contener 1024 caracteres", client.user.avatarURL())
+    .setImage(message.author.displayAvatarURL())
+    .setThumbnail(message.author.displayAvatarURL())
+    .setTimestamp()
+    .setURL("https://github.com/CraterMaik")
+    .addField("Este es un título de campo", "Este es un valor de campo puede contener 1024 caracteres.")
+    .addField("Campo en línea", "Debajo del campo en línea",  true)
+    .addField("Campo en línea 3", "Puede tener un máximo de 25 campos.", true);
+    
+message.channel.send({ embed: embedDatos });
+
+
+// embed perfecionado 
+
+        if(message.content.toLowerCase().includes("12" )){
+          let embedDatos = new EmbedBuilder()
+            .setTitle("Este es su título, puede contener 256 caracteres")
+            .setAuthor({name:message.author.username, iconURL:message.author.displayAvatarURL()})
+            .setColor(0x00AE86)
+            .setDescription("Este es el cuerpo principal del texto, puede contener 2048 caracteres.")
+            .setFooter({text:"Pie de página, puede contener 1024 caracteres", iconURL:client.user.avatarURL()})
+            .setImage(message.author.displayAvatarURL())
+            .setThumbnail(message.author.displayAvatarURL())
+            .setTimestamp()
+            .setURL("https://github.com/CraterMaik")
+            .addFields({name:"Este es un título de campo", value:"Este es un valor de campo puede contener 1024 caracteres."})
+            .addFields({name:"Campo en línea", value:"Debajo del campo en línea",inline:true})
+            .addFields({name:"Campo en línea 3", value:"Puede tener un máximo de 25 campos."})
+            message.channel.send({embeds:[embedDatos]}).then(botReacciona=>{
+              botReacciona.react("⭐").then(r=>{
+              const filter = (reaction) => reaction.emoji.name == "⭐"
+                r.message.awaitReactions({filter,max:2,time:10000,errors:["time"]}).then(
+                  collected=>{
+                    r.count = r.count - 1
+                    console.log(r.count)
+                    message.channel.send("Hey hey hey miren todas esas ⭐ . Recolectamos un total de " + r.count + ". Aunque nunca son suficientes")
+                  }
+                ).catch(collected=>{
+                  r.count = r.count - 1
+                  message.channel.send("Una lastima, queria ver como todos reaccionaban a las ⭐. Pero en fin conseguimos un total de :" + r.count)
+                })
+              })
+            })  
+          }
+
+
+
+
+///// embed para mas adelante
+
+if(message.content.toLowerCase().includes("embed" )){
+          let embedDatos = new EmbedBuilder()
+            .setTitle("JUGUEMOS A LAS PREGUNTAS ")
+            .setAuthor({name:message.author.username, iconURL:message.author.displayAvatarURL()})
+            .setDescription("Cual es la piramide mas grande del mundo?")
+            .setFooter({text:"Rapido, reacciona dependiendo de tu respuesta", iconURL:client.user.avatarURL()})
+            .setThumbnail(message.author.displayAvatarURL())
+            .setTimestamp()
+            .setColor("#ffc0cb")
+            .addFields({name:"La gran piramide de Cholua", value:"(⭐)"})
+            .addFields({name:"Piramide de Giza", value:"(🍊)",inline:true})
+            .addFields({name:"piramide de kefren", value:"(🍇)."})
+            message.channel.send({embeds:[embedDatos]}).then(botReacciona=>{
+              botReacciona.react("⭐", "🍊", "🍇").then(r=>{
+              const filter = (reaction) => reaction.emoji.name == "⭐"
+                r.message.awaitReactions({filter,max:2,time:10000,errors:["time"]}).then(
+                  collected=>{
+                    r.count = r.count - 1
+                    console.log(r.count)
+                    message.channel.send("Hey hey hey miren todas esas ⭐ . Recolectamos un total de " + r.count + ". Aunque nunca son suficientes")
+                  }
+                ).catch(collected=>{
+                  r.count = r.count - 1
+                  message.channel.send("Una lastima, queria ver como todos reaccionaban a las ⭐. Pero en fin conseguimos un total de : " + r.count)
+                })
+              })
+            })  
+          }
