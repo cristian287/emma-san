@@ -7,7 +7,7 @@ intento de sistema de dm (fallo)
   });
 
 
-
+///
 ///////////////////
 sistema de generado de preguntas (viejo)
 
