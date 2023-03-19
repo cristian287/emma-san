@@ -983,6 +983,42 @@
         "haveMention":1,
         "message":"Entonces",
         "messageTwo":"dime que piensas que puede ser que algun dia destruya el mundo?"
+    },
+    {
+        "haveMention":0,
+        "message":"El primer robot humanoide fue creado por el ingeniero japonés Masahiro Mori en 1970 y se llamó 'GAKUTENSHOKU'."
+    },
+    {
+        "haveMention":0,
+        "message":"El robot más pequeño del mundo es el 'RoboBees', que mide solo 4 milímetros y tiene la capacidad de volar"
+    },
+    {
+        "haveMention":0,
+        "message":"El robot más grande del mundo es el 'Overland Train', que mide 122 metros de largo y pesa 560 toneladas."
+    },
+    {
+        "haveMention":0,
+        "message":"El término 'robot' fue acuñado por el escritor checo Karel Capek en su obra teatral 'Rossum's Universal Robots', publicada en 1920."
+    },
+    {
+        "haveMention":0,
+        "message":"El robot 'Curiosity' de la NASA, que fue enviado a Marte en 2012, tiene la capacidad de cantar 'Feliz cumpleaños'."
+    },
+    {
+        "haveMention":0,
+        "message":"l primer robot en la historia que fue patentado fue 'Unimate', un brazo robótico desarrollado en la década de 1960 para ser utilizado en la industria automotriz."
+    },
+    {
+        "haveMention":0,
+        "message":"En Japón, hay un hotel atendido completamente por robots, desde el servicio de recepción hasta la limpieza de las habitaciones."
+    },
+    {
+        "haveMention":0,
+        "message":"La primera película en la que apareció un robot fue 'Metropolis', una película alemana de ciencia ficción de 1927 dirigida por Fritz Lang."
+    },
+    {
+        "haveMention":0,
+        "message":"En 2017, un robot llamado 'Sophia' recibió la ciudadanía saudí, convirtiéndose en el primer robot en el mundo en recibir la ciudadanía de un país."
     }
 
 ]

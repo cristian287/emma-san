@@ -278,3 +278,36 @@ sistema antiguo de datos
         "messageTwo":" ",
         "messageThree":" "
     },
+
+const axios = require('axios');
+const apiKey = process.env.OPENAI_API_KEY
+const token = process.env.DISCORD_TOKEN;
+
+client.on("messageCreate", async (message)=>{
+  if(message.content.startsWith("EMMA")){
+    message.content = message.content.slice(5)
+    console.log(message.content)
+    let emocion = 0
+    try {
+      // Llamar a la API de GPT-2 para generar texto
+      const response = await axios.post('https://api.openai.com/v1/completions', {
+        prompt: "A partir de ahora eres Emma, una IA. Tus respuestas deben ser basadas en un medidor de felicidad (0 infeliz, 10 feliz). Tu medidor de felicidad ahora es de" + 
+        emocion + ". NUNCA digas literalmente tu nivel de felicidad. Responde con esas reglas a lo siguiente:" + message.content,
+        model: "text-davinci-003",
+        n: 1,
+        max_tokens: 256,
+        temperature: 1,
+      }, {
+        headers: {
+          'Authorization': `Bearer ${apiKey}`
+        }
+      });
+      // Enviar la respuesta al mismo canal donde se originó el mensaje
+      console.log(response.data)
+      message.reply(response.data.choices[0].text, {tts: true});
+
+    } catch (error) {
+      message.channel.send("Ocurrio un error, vuelve a intentarlo")
+    }
+  }
+});
