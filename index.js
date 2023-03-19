@@ -248,3 +248,40 @@ function datazo(message){
 ///TOKEN SUPER IMPORTANTE PARA LA ESTABILIDAD DEL UNIVERSO NO BORRAR 
 client.login(process.env.DISCORD_TOKEN)
 ///TOKEN SUPER IMPORTANTE PARA LA ESTABILIDAD DEL UNIVERSO NO BORRAR 
+
+/// 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
+
+const apiKeyDos = process.env.OPENAI_API_KEY_DOS
+
+async function chatty(data) {
+	const response = await fetch(
+		"https://api-inference.huggingface.co/models/microsoft/DialoGPT-large",
+		{
+			headers: { Authorization: `Bearer ${apiKeyDos}`},
+			method: "POST",
+			body: JSON.stringify(data),
+		}
+	);
+	const result = await response.json();
+  console.log(result)
+	return result;
+}
+client.on("messageCreate",(message)=>{
+  if (message.content.startsWith("EMMA")){
+    message.content = message.content.slice(5)
+    chatty({
+      inputs:{
+        text: message.content,
+      },
+      parameters:{
+        temperature:0.4
+      },
+      options:{
+        wait_for_model:true
+      }
+      
+      }).then((e)=>{
+      message.reply(e.generated_text)
+    })
+  }
+})
